@@ -304,8 +304,8 @@ function getJadwal() {
         data.schedule.news.title ? data.schedule.news.title : ""
       );
 
-      demo = data.demo;
-      survey = data.survey;
+      demo = false;
+      survey = false;
 
       if (demo && survey) {
         elem.hidden = true;
